@@ -6,7 +6,7 @@ const app = express();
 
 // Enable CORS for your frontend
 app.use(cors({
-  origin: 'http://localhost:5173',  // Frontend URL
+  origin: 'https://startup-h5ru.onrender.com',  // Frontend URL
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type'],
 }));
